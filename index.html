@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/skeleton.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/banner.css" type="text/css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Contrail+One' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<style>
+
+.indent:before {
+    content: "";
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 100%;
+    background: radial-gradient(circle at top, white, rgba(255, 255, 255, 0) 58%);
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    z-index: 2; }
+  .indent:after {
+    content: "";
+    position: absolute;
+    display: none;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 100%;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+    z-index: 2;
+    -webkit-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg); }
+  .indent .shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+    -webkit-transform: rotateX(90deg) translateZ(-160px);
+    transform: rotateX(90deg) translateZ(-160px);
+    z-index: 1; }
+  .indent.plain {
+    background: black; }
+    .indent.plain:before, .indent.plain:after {
+      display: none; }
+  .indent.indent {
+   
+    -webkit-animation: indent-anim 2s ease-out infinite;
+    animation: indent-anim 2s ease-out infinite; }
+    .indent.indent:before {
+      -webkit-filter: blur(0);
+      filter: blur(0);
+      height: 80%;
+      width: 40%;
+      background: radial-gradient(circle at 130% 130%, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 46%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 58%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+      -webkit-transform: translateX(131%) translateY(58%) rotateZ(168deg) rotateX(10deg);
+      transform: translateX(131%) translateY(58%) rotateZ(168deg) rotateX(10deg); }
+    .indent.indent:after {
+      display: block;
+      background: radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 74%, white 80%, white 84%, rgba(255, 255, 255, 0) 100%); }
+
+	  
+	  
+	  @-webkit-keyframes indent-anim {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  20% {
+    -webkit-transform: scaleY(0.95) scaleX(1.05);
+    transform: scaleY(0.95) scaleX(1.05); }
+
+  48% {
+    -webkit-transform: scaleY(1.1) scaleX(0.9);
+    transform: scaleY(1.1) scaleX(0.9); }
+
+  68% {
+    -webkit-transform: scaleY(0.98) scaleX(1.02);
+    transform: scaleY(0.98) scaleX(1.02); }
+
+  80% {
+    -webkit-transform: scaleY(1.02) scaleX(0.98);
+    transform: scaleY(1.02) scaleX(0.98); }
+
+  97%, 100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes indent-anim {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  20% {
+    -webkit-transform: scaleY(0.95) scaleX(1.05);
+    transform: scaleY(0.95) scaleX(1.05); }
+
+  48% {
+    -webkit-transform: scaleY(1.1) scaleX(0.9);
+    transform: scaleY(1.1) scaleX(0.9); }
+
+  68% {
+    -webkit-transform: scaleY(0.98) scaleX(1.02);
+    transform: scaleY(0.98) scaleX(1.02); }
+
+  80% {
+    -webkit-transform: scaleY(1.02) scaleX(0.98);
+    transform: scaleY(1.02) scaleX(0.98); }
+
+  97%, 100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+
+</style>
+	<!--[if lt IE 8]>
+		<div style='clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.">
+			</a>
+		</div>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<link rel="stylesheet" href="css/ie.css"> 
+	<![endif]-->
+</head>
+<body id="page1">
+	<div class="light">
+		<div class="container_12">
+			<div class="grid_12">
+				<!--======================== header ============================-->
+				<header class="border-bottom">
+					<div class="wrapper indent-bottom">
+						<!--======================== logo ============================-->
+						<h1><a href="index-2.html">UCS Media Group</a></h1>
+						<!--======================= slogan ===========================-->
+						<div class="slogan">Slogan</div>
+						<!--======================= social ===========================-->
+						<ul class="social-icons">
+							<li><a href="#" class="twitter-icon"></a></li>
+						</ul>
+					</div>
+					<!--=================== banner ==================-->
+					<div id="banner">
+						<a href="#" class="circle circle-1 indent">
+							<div class=" indents">
+								<h3>Infosoft</h3>
+								Lorem ipsum dolor sit amet con ctetuer adipisci elit 
+							</div>
+						</a>
+						<a href="#" class="circle circle-2  indent">
+							<div class="indents">
+								<h3>Productions</h3>
+								dolor sit amet conse ctetuer adipiscing elitaesen
+							</div>
+						</a>
+						<a href="#" class="circle circle-3  indent">
+							<div class="indents">
+								<h3>ClickOrder</h3>
+								tetuer adipiscing eliaesent vestibuestie lacu
+							</div>
+						</a>
+						<a href="#" class="circle circle-4  indent">
+							<div class="indents">
+								<h3>Extra</h3>
+								Lorem ipsum dolor sit amet cons ctetuer adipiscing elit 
+							</div>
+						</a>
+					</div>
+					<!--======================== nav menu will be here ============================-->
+					
+					<!--======================== nav menu will be here ============================-->
+				</header>
+				<!--======================== footer ============================-->
+				<footer>
+					<div class="wrapper">
+						<div class="footer-text">
+							UCS <span class="copy">&copy;</span>&nbsp;&nbsp;2016
+							<div class="footer-link"><!--{%FOOTER_LINK} --></div>
+						</div>
+					</div>
+				</footer>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</body>
+
+</html>
